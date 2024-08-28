@@ -1,0 +1,10 @@
+GET http://localhost:3001/posts
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWJjIiwiaWF0IjoxNzI0ODQxODM3fQ.TPNrkTZy3yPygMgAI1Cszj2QZzGDGKfhRJBpnPEKDxs
+###
+POST  http://localhost:3001/login
+
+Content-Type: application/json
+{
+    "name":"jamal"
+}
